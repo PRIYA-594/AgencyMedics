@@ -1,0 +1,97 @@
+
+     .divheading
+     {
+        color:blue;
+        font-size: 100px;
+        font-family: 'Times New Roman', Times, serif;
+     }
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:black;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration:none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color:#111;
+      color:gold;
+      text-decoration:none;
+      }
+      
+      .active {
+        background-color:#04AA6D;
+      text-decoration:none;
+      
+      }
+
+      .dactive {
+        background-color:lightcoral;
+      text-decoration:none;
+      
+      }
+
+      #exp
+      {
+        font-family: 'Times New Roman', Times, serif;
+        padding-inline: 20px;
+        color:blue;
+        background-color: bisque;
+        border-radius: 20px;
+        
+      }
+      .exp
+      {
+        width:600px;
+        font-size:25px ;
+        background-color: gold;
+        
+      }
+      #fixedend
+      {
+        position:fixed;
+        bottom:0;
+        left:0;
+      }
+      #fixedhead
+      {
+        position:fixed;
+        width:100%;
+       
+      }
+      #inhead
+      {
+        color:#04AA6D;
+        text-align: center;
+      }
+      #inheader
+      {
+        color:aquamarine;
+        text-align: center;
+      }
+      button a
+      {
+        text-decoration: none;
+        border-radius: 20px;
+      }
+      #about
+      {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        width:70%;
+      }
+
+      
